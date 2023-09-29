@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Star Trip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Montserrat:wght@500&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand- navbar-light bg-light ">
+            <a class="navbar-brand" href="#">STAR TRIP </a>
+            <ul class="nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Inicio </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Destinos">Destinos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acercade.html">Acerca de</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="cover d-flex justify-content-center align-items-center flex-column">
+            <h1>StarTrip</h1>
+            <p>Ahora en tu galaxia</p>
+            <button type=button class="btn btn-primary"> Ingresa tu ID</button>
+        </div>
+    </header>
+
+    <section>
+        <div class="container mb-5 mt-5">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(motornave.jpg)"
+                            title="Motor de nave espacial"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Naves 2.5</h5>
+                            <p class="card-text"> Funcionamiento con motor gravitacional
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(interiornave.jpg)"
+                            title="Interior de una nave espacial"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Ambiente Moderno</h5>
+                            <p class="card-text"> Arquitectura adaptada a las fluctuaciones gravitatorias
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(SoldadoNave.jpg)"
+                            title="Soldados en nave espacial"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Seguridad Privada</h5>
+                            <p class="card-text"> Guardia entrenada bajo gravedad cero
+                            </p>
+                        </div>
+                    </div>
+                </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-5">
+                    <img src="Searchpagina.svg" height="300px" alt="Mujer sentada con fondo de planeta y lupa" />
+                </div>
+                <div class="col-12 col-sm-6 mt-5">
+                    <h3> ¡Todos los destinos que soñaste!</h3>
+                    <p> Indicanos tus datos y te enviamos las mejores experiencias</p>
+                    <a href="#Mapa"> Ir al mapa </a>
+                </div>
+            </div>
+            <form class="mt-5" action="">
+                <label for="email">Correo Electrónico</label>
+                <div class="d-flex ">
+                    <div class="flex-fill mr-3">
+                        <input type="email" id="email" class="form-control" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">
+                        Enviar</button>
+                </div>
+        </div>
+        </form>
+        </div>
+    </section>
+
+    <!--TIRA DE PLANETAS-->
+    <section>
+        <div class="container mt-5 mb-5" id="Destinos">
+            <div class="product-stripe">
+                <div class="stripe-container">
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(Pluton.jpg)"
+                            title="Pluton, Planeta Helado"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Plutón</h5>
+                            <span class="badge badge-info">$299.000 USD</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(Neptuno.jpg)"
+                            title="Neptuno, Planeta Azul"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Neptuno</h5>
+                            <span class="badge badge-info">$399.000 USD</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(Saturno.jpg)"
+                            title="Saturno, Planeta Anillado"> </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Saturno</h5>
+                            <span class="badge badge-info">$899.000 USD</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="cover cover-small" style="background-image:url(Tierra.jpg)"
+                            title="El Planeta Tierra">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Origen</h5>
+                            <span class="badge badge-info">$49.000 USD</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <section>
+        <div class="container mt-5 mb-5" id="Mapa">
+            <h4>¡Te esperamos para el despegue!</h4>
+            <p4>Spaceport Way, Cape Canaveral, FL 32920, Estados Unidos</p4>
+            <div class="responsive-iframe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.6715263538376!2d-80.6072591373856!3d28.417046169773695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e0a641e6cf4bfb%3A0x87ac9af0f05b1cff!2sSpaceX%20Launch%20and%20Landing%20Control%20Center!5e0!3m2!1ses-419!2sar!4v1695154002538!5m2!1ses-419!2sar"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+    </section>
+</body>
+
+</html>
